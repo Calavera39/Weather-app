@@ -18,6 +18,11 @@ function App() {
   const [weather, setWeather] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
 
+
+
+ 
+
+
   useEffect(() => {
     const fetchWeather = async () => {
       setIsLoading(true)
@@ -31,6 +36,10 @@ function App() {
   
     fetchWeather();
   }, [query, units])
+
+  useEffect(() => {
+    alert('Weather API stopped being available in Russia. Please use VPN')
+  }, [])
   
   const weth = weather && (
     <div>
@@ -43,7 +52,7 @@ function App() {
 
 
   return (
-    <div className={`mx-auto max-w-screen-md mt-0 py-5 px-32 sm:px-2 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400`}>
+    <div className={`min-h-full sm:h-[110vh] mx-auto max-w-screen-md mt-0 py-5 px-32 sm:px-2 bg-gradient-to-br from-cyan-700 to-blue-700 shadow-xl shadow-gray-400`}>
       <TopButtons setQuery={setQuery}/>
       
       <Inputs  setQuery={setQuery} units={units} setUnits={setUnits}/>
