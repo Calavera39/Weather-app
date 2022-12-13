@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f01be14e.css",
-    "main.js": "/static/js/main.674ff331.js",
-    "index.html": "/index.html",
-    "main.f01be14e.css.map": "/static/css/main.f01be14e.css.map",
-    "main.674ff331.js.map": "/static/js/main.674ff331.js.map"
+    "main.css": "/calavera39.github.io/weather/static/css/main.f01be14e.css",
+    "main.js": "/calavera39.github.io/weather/static/js/main.674ff331.js",
+    "index.html": "/calavera39.github.io/weather/index.html",
+    "main.f01be14e.css.map": "/calavera39.github.io/weather/static/css/main.f01be14e.css.map",
+    "main.674ff331.js.map": "/calavera39.github.io/weather/static/js/main.674ff331.js.map"
   },
   "entrypoints": [
     "static/css/main.f01be14e.css",
